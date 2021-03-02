@@ -111,17 +111,21 @@ h3 {
     line-height: 1.5;
 }
 
-.img-logo {
-    width: 50%;
-    margin: 25% 25%;
-}
-
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
     .img-logo {
         width: 0%;
         margin: 0%;
     }
 }
+
+@media (min-width: 1200px) {
+    .img-logo {
+        width: 50%;
+        margin: 25% 25%;
+    }
+}
+
+
 .container-company-text {
     margin: 2% 0;
     text-align: left;
