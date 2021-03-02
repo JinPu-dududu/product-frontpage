@@ -1,6 +1,7 @@
 /************* TAG *************/
 body {
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
 h1 {
@@ -26,6 +27,11 @@ h3 {
     padding: 3% 5%;
 }
 
+.btn {
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 5%;
+}
+
 /* Homepage */
 .navbar {
     background-color: #48426d;
@@ -40,15 +46,11 @@ h3 {
 .container-homepage {
     padding: 13% 0%;
     color: white;
-}
-
-.btn {
-    font-family: 'Ubuntu', sans-serif;
-    margin-bottom: 5%;
+    text-align: left;
 }
 
 /* Features */
-.container-features {
+#features .ontainer-fluid {
     padding-top: 4%;
 }
 
@@ -61,8 +63,7 @@ h3 {
 }
 
 /* Advantage */
-.container-advantage {
-    text-align: center;
+#advantages .ontainer-fluid {
     padding-top: 3.5%;
 }
 
@@ -76,9 +77,6 @@ h3 {
 
 
 /* Testimonial */
-.container-test-1 {
-    text-align: center;
-}
 
 .container-test-2 {
     text-align: left;
@@ -100,14 +98,13 @@ h3 {
     background-color: #dcd6f7;
 }
 
-.container-card {
+#pricing .container-fluid {
     margin-top: 3%;
     line-height: 1.5;
 }
 
 /* Company */
-.container-company {
-    text-align: center;
+#company .container-fluid {
     line-height: 1.5;
 }
 
@@ -131,7 +128,6 @@ h3 {
     text-align: left;
 }
 
-
 /* Partners */
 .img-partners {
     width: 10%;
@@ -146,6 +142,7 @@ h3 {
     margin-top: 2%;
     margin-bottom: 2%;
 }
+
 .container-img-indicators {
     margin-bottom: 0;
 }
@@ -175,12 +172,10 @@ h3 {
 /* Feature */
 #features {
     margin-top: 7%;
-    text-align: center;
 }
 
 /* Advantage */
 #advantages {
-    text-align: center;
     margin-top: 2%;
 }
 
@@ -194,7 +189,6 @@ h3 {
 
 /* Pricing */
 #pricing {
-    text-align: center;
     margin-top: 5%;
     padding: 1% 10% 0% 10%;
 }
@@ -206,18 +200,12 @@ h3 {
 
 /* Partners */
 #partners {
-    text-align: center;
     background-color: #dcd6f7;
     padding-top: 1%;
     margin-top: 0%;
 }
 
-#img-partners {
-    padding: 3%;
-}
-
 /* Footer */
 #footer {
     margin-top: 2%;
-    text-align: center;
 }
