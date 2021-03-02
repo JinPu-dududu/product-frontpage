@@ -111,14 +111,14 @@ h3 {
     line-height: 1.5;
 }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     .img-logo {
         width: 0%;
         margin: 0%;
     }
 }
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
     .img-logo {
         width: 50%;
         margin: 25% 25%;
